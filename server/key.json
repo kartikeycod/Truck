@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fuel-verification-ai",
+  "private_key_id": "1748c9309464fc6781700a79d11ba7fd0712dd8e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcbxXDDlXy1Kkl\ndypY3is/bCjs/H43rjoBU7IZ7c9t2NJuAZoDSFJdX3TaboL7aHxQSLTKwLugsZag\nvlgocbZ9BUzn5LBqlhDtnCJEZJJSTIyJDF9l4f0gzX517Nfk50XjLQd4+hWBuULh\nLqJtTwKOeRJH0xPLjoNdmu7aUlpO+JPn/w8HtmFOv2hNBEbZuQEAmRuO4l08BrrG\njjNi6ChA+CxG1Z3quB2C/+btepQt8lC86aamyyz6FrvDBEuXy1kOAfHA/fn4PuS0\nspZ+GHCmeZGRuel5Ntm7tYr1K8X/Tqi+maMSwX8HV9BB1MeFwivU7VYkQ4V8Z0cb\nBy3Z4KPRAgMBAAECggEADKioyltoe6oTREvIMojLA9jOrodfKeGXQqwUsluqDxqb\nFlwAr8y82tBdyffRN/tbh5JuptBz0J9fhqp6WROTVtwm+w/dbWLh+ic+f4jQBKpm\njViYzOVyD4Aa5vjw5VwTsx9gSmYANgOBL/nT3uz2jl8tDyizvmZC1y1hJ0gAmCrK\neftxz6dhMlUM3syjmpMbGEbW9tq9rqVQsqqy40SsOePenq/lG/tH2HFIceTExS8n\na3Qg7SvbUN2Hmeb9eiasADwpyuoziUZQbLnJoreRYezeN7sCfCiuAZwVFQbPoZhH\nk5M30aZEb92R9o9jCwQqaiEJ7Xwu6x8ilYeehZ1pvQKBgQD6VGu8kS/2WtNMRt4V\nJHbQidb6H6Kh5dDbyO0pwYs8+bPC9HS51b+b9gTSBdhc/u2zSoNIoA1c5rlKqQG1\nkobmQVR4tRCdSJgAwmAWftp2Lh5w/jjwOnsgb0d1Vx/1DwhkvmaFvQ0J+4l7auCq\n1sZv3FtmyoQCnTZgA4M/8/FCZQKBgQDhbU7frvOw8sKwN2gVhZLLDEhehrgQFh5V\n2Jfm9Y/yLCkJygOJHm1nrqF4/BIQUxouhWn2qRNFEorRvBW7B/A5K4VPhrcuerVT\nU7rYzBUqRZiF2JR2ua+N0FxUVgOngmBz/7zM7rdhwk3NPmN7iepDb51I6ic8xH1K\n4LMpAkaO/QKBgG7AWOYVihXBe0h89hZ+in6a7Vy+EFL2fWAv1hWqRnMUup5fTyFE\n20AiKWHOKjqCoyG2rry76w2WGpZYjaQKjtpiPwAkg5RCoNV9KcvqFbdBkkBFiWVn\nSkBAW2ojwMTIANupjWxQBuvKuLm8wGd1HFgzMtEYei055uu1wiTSRYQtAoGBAJ4E\n9akvBnwfcAH+lOOhQok7Du/UF+qO1qzuq2ym7kSgWBQYm+nefmqTq3UXncH7vvql\nYuYZFvzwRodHBSSaJ/arX0Oj93yJX9oNc4jNZni/WG9appejCkCqsk4cDWu6pMor\nlrlBDSNmBQu+lBXhU2n6L5MRMHgUdI+se2pfwf4xAoGBAKGTULoKqG80nZ3SdcOd\nCQauYAPurjkE+VEvqjkgoGnzscoHyQ001YC/eu3vmb7/RmOxn0LcnI708fQkyD6s\nfmm9pVICuYBmvCn7KWxC1tLYxcKDwMUy5xVO4QBeQjkM+7cpreMXuLBCibRDmFEM\nd5OZFXHZGDdRXzM/8In8ShSS\n-----END PRIVATE KEY-----\n",
+  "client_email": "fuel-ocr-service@fuel-verification-ai.iam.gserviceaccount.com",
+  "client_id": "112443588190069243807",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fuel-ocr-service%40fuel-verification-ai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
