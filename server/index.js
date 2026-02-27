@@ -188,7 +188,7 @@ const fs = require("fs");
 const path = require("path");
 const vision = require("@google-cloud/vision");
 const pdfParse = require("pdf-parse");
-const db = require("./firebase");
+const {db,admin} = require("./firebase");
 
 const app = express();
 
