@@ -232,7 +232,7 @@ const invoiceUpload = multer({ dest: "invoices/" });
 /* ================= GOOGLE OCR SETUP ================= */
 
 // Always resolve absolute path
-const keyPath = path.resolve(__dirname, "key.json");
+const keyPath = path.resolve(__dirname, "service-account.json");
 
 // FORCE Google SDK to use this credential everywhere
 process.env.GOOGLE_APPLICATION_CREDENTIALS = keyPath;
