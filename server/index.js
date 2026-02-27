@@ -214,21 +214,35 @@ const invoiceUpload = multer({ dest: "invoices/" });
 
 /* ================= GOOGLE OCR SETUP ================= */
 // Absolute path for key.json
-const keyPath = path.join(__dirname, "key.json");
+// const keyPath = path.join(__dirname, "key.json");
 
-const client = new vision.ImageAnnotatorClient({
-  keyFilename: keyPath,
-});
+// const client = new vision.ImageAnnotatorClient({
+//   keyFilename: keyPath,
+// });
 
-async function runOCR(filePath) {
-  try {
-    const [result] = await client.textDetection(filePath);
-    return result.textAnnotations[0]?.description || "";
-  } catch (err) {
-    console.error(`❌ OCR Error for ${filePath}:`, err.message);
-    throw err; 
-  }
-}
+// async function runOCR(filePath) {
+//   try {
+//     const [result] = await client.textDetection(filePath);
+//     return result.textAnnotations[0]?.description || "";
+//   } catch (err) {
+//     console.error(`❌ OCR Error for ${filePath}:`, err.message);
+//     throw err; 
+//   }
+// }
+/* ================= GOOGLE OCR SETUP ================= */
+
+// Always resolve absolute path
+const keyPath = path.resolve(__dirname, "key.json");
+
+// FORCE Google SDK to use this credential everywhere
+process.env.GOOGLE_APPLICATION_CREDENTIALS = keyPath;
+
+// Debug (safe)
+console.log("📁 Vision Key Path:", keyPath);
+console.log("✅ Key Exists:", fs.existsSync(keyPath));
+
+// Create Vision client (NO keyFilename needed)
+const client = new vision.ImageAnnotatorClient();
 
 /* ================= PDF OCR ================= */
 async function extractInvoiceDetails(pdfPath) {
